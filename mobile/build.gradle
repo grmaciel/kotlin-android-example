@@ -1,6 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
-apply plugin: 'io.fabric'
+//apply plugin: 'io.fabric'
 
 repositories {
     mavenCentral()
@@ -86,9 +86,9 @@ dependencies {
     debugCompile 'com.facebook.stetho:stetho:1.1.1'
     debugCompile 'com.facebook.stetho:stetho-okhttp:1.1.1'
     debugCompile 'com.facebook.stetho:stetho-timber:1.1.1'
-    compile('com.crashlytics.sdk.android:crashlytics:2.3.2@aar') {
-        transitive = true;
-    }
+//    compile('com.crashlytics.sdk.android:crashlytics:2.3.2@aar') {
+//        transitive = true;
+//    }
 
     //ui
     compile 'jp.satorufujiwara:recyclerview-binder:1.2.0'

@@ -11,7 +11,7 @@ import timber.log.Timber
 public class ReleaseAppLifecycleCallbacks : AppLifecycleCallbacks {
 
     override fun onCreate(application: Application) {
-        Fabric.with(application, Crashlytics())
+//        Fabric.with(application, Crashlytics())
         Timber.plant(CrashlyticsTree())
     }
 
